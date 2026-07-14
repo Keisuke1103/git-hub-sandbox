@@ -2,3 +2,4 @@
 検証など
 
 issue/2でreadme
+issue/4
