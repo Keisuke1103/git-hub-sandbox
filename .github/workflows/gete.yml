@@ -6,6 +6,8 @@ on:
       - main
       - 'feature/*'
       - 'beta1/*/*'
+      - 'issue/*'
+      - 'issue/*/*'
 jobs:
   up-to-date-gate:
     runs-on: ubuntu-latest
