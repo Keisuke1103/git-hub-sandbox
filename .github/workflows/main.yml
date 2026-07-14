@@ -1,0 +1,13 @@
+# .github/workflows/gate.yml
+name: gate
+on:
+  pull_request:
+    branches:
+      - main
+      - 'feature/*'
+      - 'beta1/*/*'
+jobs:
+  up-to-date-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ok"
